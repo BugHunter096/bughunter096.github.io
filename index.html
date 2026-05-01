@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pelayo Alonso Fernández | Junior Software Developer</title>
+  <meta name="description" content="Portfolio de Pelayo Alonso Fernández, desarrollador junior especializado en Java, Kotlin, Flutter, Android y bases de datos." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#inicio">PAF</a>
+      <button class="menu-button" id="menuButton" aria-label="Abrir menú">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#stack">Stack</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Junior Software Developer · DAM · Backend & Android</p>
+        <h1>Creo aplicaciones claras, mantenibles y útiles.</h1>
+        <p class="hero-text">
+          Soy Pelayo Alonso Fernández, desarrollador junior con base en Java, Kotlin,
+          Flutter, Android y bases de datos. Me interesa especialmente el backend,
+          la calidad del código y construir productos que resuelvan problemas reales.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proyectos">Ver proyectos</a>
+          <a class="button secondary" href="https://github.com/BugHunter096" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <p class="card-label">Ahora mismo</p>
+        <h2>Buscando oportunidad junior</h2>
+        <p>Software · Backend · Android · Java · Kotlin · SQL</p>
+        <div class="status-row">
+          <span></span>
+          Disponible para seguir creciendo en equipo.
+        </div>
+      </aside>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Trabajo real y proyectos propios</p>
+        <h2>Proyectos destacados</h2>
+        <p>
+          Estos proyectos muestran CRUD, persistencia, arquitectura básica, UI y documentación.
+          La clave es que cada repo tenga README, capturas y pasos de ejecución.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top">
+            <span class="tag">Java · JavaFX · SQLite</span>
+            <span class="tag muted">Proyecto DAM</span>
+          </div>
+          <h3>Progresión de marcas en natación</h3>
+          <p>
+            Aplicación de escritorio para clubes de natación: gestión de nadadores,
+            registro de marcas, filtros y visualización de evolución deportiva.
+          </p>
+          <ul>
+            <li>CRUD completo de nadadores y registros.</li>
+            <li>Base de datos SQLite local.</li>
+            <li>Separación entre vista, controladores, DAO y modelos.</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/BugHunter096/ProyectoFinal" target="_blank" rel="noreferrer">Repositorio</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="tag">Java 21 · Spring Boot</span>
+          </div>
+          <h3>SwimTrack API</h3>
+          <p>
+            API REST para registrar nadadores y marcas. Pensada para enseñar backend,
+            endpoints limpios, DTOs, validación y pruebas.
+          </p>
+          <ul>
+            <li>Endpoints REST para nadadores y tiempos.</li>
+            <li>Estadísticas básicas de rendimiento.</li>
+            <li>README con ejemplos cURL.</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/BugHunter096/swimtrack-api" target="_blank" rel="noreferrer">Repositorio</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="tag">Flutter · Dart</span>
+          </div>
+          <h3>MovieVault Flutter</h3>
+          <p>
+            App móvil para gestionar una biblioteca personal de películas con valoración,
+            estado de vista y notas.
+          </p>
+          <ul>
+            <li>UI sencilla y responsive.</li>
+            <li>Estado local con persistencia JSON.</li>
+            <li>Formulario de alta y listado editable.</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/BugHunter096/movievault-flutter" target="_blank" rel="noreferrer">Repositorio</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="tag">Java</span>
+          </div>
+          <h3>Detector de anagramas</h3>
+          <p>
+            Programa Java para comprobar si dos textos son anagramas. Proyecto sencillo,
+            útil para mostrar lógica básica, arrays y limpieza de entrada.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/BugHunter096/anagrama" target="_blank" rel="noreferrer">Repositorio</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="section split">
+      <div>
+        <p class="eyebrow">Stack técnico</p>
+        <h2>Lo que puedo aportar desde el día 1</h2>
+        <p>
+          Perfil junior, sí. Pero con base práctica: Java, Kotlin, Flutter, SQL,
+          Git y experiencia tocando aplicaciones reales en prácticas.
+        </p>
+      </div>
+      <div class="skills">
+        <span>Java</span>
+        <span>Kotlin</span>
+        <span>Dart</span>
+        <span>Flutter</span>
+        <span>Android</span>
+        <span>SQL</span>
+        <span>SQLite</span>
+        <span>MySQL</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Testing funcional</span>
+        <span>Agile</span>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section about">
+      <p class="eyebrow">Sobre mí</p>
+      <h2>Estoy construyendo una base sólida para backend y desarrollo móvil.</h2>
+      <p>
+        Vengo de Desarrollo de Aplicaciones Multiplataforma y estoy ampliando formación
+        en Ingeniería Informática, programación avanzada y ciberseguridad. Me gusta
+        entender bien el problema antes de tocar código y dejar los proyectos documentados.
+      </p>
+      <div class="about-grid">
+        <div>
+          <strong>Formación</strong>
+          <p>DAM, Ingeniería Informática, programación avanzada y ciberseguridad.</p>
+        </div>
+        <div>
+          <strong>Idiomas</strong>
+          <p>Español nativo, inglés B2 y noruego básico.</p>
+        </div>
+        <div>
+          <strong>Objetivo</strong>
+          <p>Primera posición junior en desarrollo software, backend o Android.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <p class="eyebrow">Contacto</p>
+      <h2>¿Hablamos?</h2>
+      <p>
+        Estoy abierto a oportunidades junior, prácticas y proyectos donde pueda aportar
+        y aprender con código real.
+      </p>
+      <div class="contact-links">
+        <a class="button primary" href="mailto:pe.alonso29@gmail.com">pe.alonso29@gmail.com</a>
+        <a class="button secondary" href="https://github.com/BugHunter096" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="button secondary" href="TU_LINKEDIN_AQUI" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Pelayo Alonso Fernández. Hecho con HTML, CSS y JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
